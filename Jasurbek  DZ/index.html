@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+
+<div style="display: none;  " id="mask" class="mack"></div>
+
+
+        <div class="sidebar">
+            <h1>filter</h1>
+            <div class="flex">
+            <input type="text" id="search">
+            <button id="btn">search</button>
+            </div>
+            <div class="flex">
+            <input placeholder="min" id="min" type="text">
+            <input placeholder="max" id="max" type="text">
+            <button id="filter">filter</button>
+            </div>
+            <button onclick="deletefilters()">delete</button>
+
+        </div>
+ 
+        <div id="container"></div>
+  <script src="./script.js"></script>
+
+
+    
+</body>
+</html>
